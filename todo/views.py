@@ -15,4 +15,4 @@ def index(request):
     context = {
         'tasks': tasks
     }
-    return render(request, 'todo/index.heml', context)
+    return render(request, 'todo/index.html', context)
